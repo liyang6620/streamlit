@@ -299,7 +299,7 @@ area_encoding_map = {
 # In[ ]:
 
 
-suburb_num = suburb_encoding_map.get(suburb)
+suburb_num = suburb_encoding_map.get( suburb )
 area_num = area_encoding_map.get(Regions)
 prediction_data = pd.DataFrame({
     'Suburb_num': [suburb_num],
